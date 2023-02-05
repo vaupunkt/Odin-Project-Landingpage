@@ -100,27 +100,29 @@ h2 {
 .boxes {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
    
 }
 
 .box {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 200px;
     flex-shrink: 0;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
 }
 .content{
     width: 150px;
     height: 150px;
     border: 5px solid #3882f6;
-    border-radius: 15%;
+    border-radius: 12%;
 }
-.subtext {
+p.subtext {
     text-align: center;
     width: 150px;
     color: gray;
-
+    vertical-align: text-top;
+    margin-top: 5px;
 }
