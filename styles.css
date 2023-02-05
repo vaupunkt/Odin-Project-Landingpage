@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-width: 500px;
 }
 
 .dark, .white, .grey, .footer{
@@ -21,7 +22,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 50px;
 }
 .white {
     padding-top: 50px;
@@ -40,7 +40,7 @@ ul {
 .top {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 150px 0;
 }
 
 h1 {
@@ -89,6 +89,7 @@ button {
     border: 2px solid #3882f6;
     padding: 7px 25px;
     transition-duration: 0.4s;
+    flex-shrink: 0;
 }
 
 button:hover {
@@ -140,7 +141,7 @@ p.subtext {
 }
 
 .quotebox {
-    padding: 50px 0;
+    padding: 150px 0;
     margin-left: 150px;
     margin-right: 100px;
 }
@@ -159,6 +160,7 @@ p.subtext {
     font-size: larger;
     margin: 0;
     padding-right: 20px;
+    min-width: max-content;
 }
 
 .action {
@@ -169,6 +171,7 @@ p.subtext {
     justify-content: center;
     gap: 100px;
     padding: 40px;
+    min-width: 500px;
 }
 h3 {
     color: #f9faf8;
@@ -191,4 +194,5 @@ h3 {
     text-align: center;
     font-weight: lighter;
     font-size: small;
+    padding: 30px;
 }
