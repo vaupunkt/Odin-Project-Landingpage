@@ -6,7 +6,8 @@ body {
 }
 
 .dark, .white, .grey {
-    padding: 0 300px;
+    padding: 0px 300px;
+    
 }
 .dark {
     background-color: #1f2937;
@@ -20,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .logo {
@@ -36,11 +37,9 @@ ul {
 .top {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0px;
+    padding: 50px 0;
 }
-.info {
-    padding: 50px 0px;
-}
+
 h1 {
     font-size: 48px;
     color: #f9faf8;
@@ -90,6 +89,9 @@ button:hover {
     background-color: #e5e7eb;
 }
 
+.info {
+    padding: 50px 0;
+}
 h2 {
     font-weight: bolder;
     font-size: 36px;
@@ -125,4 +127,26 @@ p.subtext {
     color: gray;
     vertical-align: text-top;
     margin-top: 5px;
+}
+
+.quotebox {
+    padding: 50px 0;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1f2937;
+    margin: 0;
+    min-width: 500px;
+}
+.author {
+    text-align: end;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 0;
+    padding-right: 20px;
 }
